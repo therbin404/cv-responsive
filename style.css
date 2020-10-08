@@ -66,10 +66,17 @@ h2 {
 .body {
 }
 
+.content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 .part {
   margin: 50px;
   padding: 50px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .title {
@@ -107,11 +114,14 @@ h2 {
 }
 
 .hobbie {
-  width: 30%;
+  width: 300px;
   margin: 1.5%;
   float: left;
 }
 
+.contact {
+  width: 200px;
+}
 .contact * {
   margin: 0 auto;
 }
@@ -141,13 +151,8 @@ h2 {
   clear: both;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-  
-}
-
-@media screen and (min-width: 1200px) {
-
+.job {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
 }

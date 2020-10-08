@@ -1,9 +1,17 @@
+
+
 body {
   margin: 0;
   padding: 0;
   font-size: 20px;
   color: grey;
   font-family: helvetica, roboto;
+}
+
+body * {
+  border: 1px solid black;
+  min-height: 20px;
+  padding: 10px 0;
 }
 
 li {

@@ -5,6 +5,7 @@ body {
   font-size: 20px;
   color: grey;
   font-family: helvetica, roboto;
+  box-sizing: border-box;
 }
 
 body * {
@@ -106,7 +107,7 @@ h2 {
 }
 
 .hobbie {
-  width: 30%;
+  width: 29.5%;
   margin: 1.5%;
   float: left;
 }
@@ -141,9 +142,6 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
-  .sidebar {
-    background-color: black;
-  }
   .job {
     width: 39%;
     float: left;
@@ -156,5 +154,10 @@ h2 {
 }
 
 @media screen and (min-width: 1200px) {
+  .job {
+    width: 24%%;
+    float: left;
+    margin: 10px 2.5%%;
+  }
 
 }

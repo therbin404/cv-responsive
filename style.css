@@ -1,5 +1,4 @@
 
-
 body {
   margin: 0;
   padding: 0;
@@ -141,7 +140,15 @@ h2 {
   clear: both;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) {
+  .sidebar {
+    background-color: black;
+  }
+  .job {
+    width: 39%;
+    float: left;
+    margin: 10px 5%;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {

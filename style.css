@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: grey;
+  font-family: helvetica, roboto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h2, 
+h3 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+.sidebar {
+  width: 20%;
+  height: 100%;
+  float: left;
+  position: fixed;
+  background-color: #5b6a7a;
+  text-align: center; 
+  color: white;
+  box-shadow: 2px 2px 2px black;
+}
+
+.sidebar img {
+  width: 50%;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.sidebar ul {
+  margin-top: 50%;
+  float: right;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.sidebar li {
+  margin: 20px 0;
+}
+
+.sidebar h2 {
+  text-transform: none;
+  font-size: 25px;
+}
+
+.sidebar p {
+  margin: 20px;
+}
+
+.body {
+  width: 80%;
+  float: right;
+  background-color: #c2bcb0;
+}
+
+.part {
+  margin: 50px;
+  padding: 50px;
+  text-align: center;
+}
+
+.title {
+  color: rgba(185,34,34,1);
+  margin-bottom: 100px;
+}
+
+.title hr {
+  width: 40%;
+  border-color: rgba(185,34,34,1);
+}
+
+.resize {
+  height: 200px;
+}
+
+.portfolio {
+  width: 45%;
+  margin: auto;
+}
+
+.year, 
+.boss {
+  width: 45%;
+  float: left;
+  margin: 2%;
+}
+
+.year {
+  text-align: right;
+}
+
+.boss {
+  text-align: left;
+}
+
+.hobbie {
+  width: 30%;
+  margin: 1.5%;
+  float: left;
+}
+
+.contact a {
+  color: grey;
+}
+
+.icon {
+  width: 40%;
+  float: left;
+}
+
+.icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.info {
+  float: left;
+  width: 40%;
+}
+
+.stop {
+  clear: both;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+@media screen and (min-width: 1200px) {
+
+}
